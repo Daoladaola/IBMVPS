@@ -13,7 +13,7 @@
 ##### 1.2. V2ray一键安装代码(9月7日更新)
 
 ```
-wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/daoladaola/IBMVPS/master/install.sh && chmod +x install.sh  && ./install.sh
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/Daoladaola/IBMVPS/master/install.sh && chmod +x install.sh  && ./install.sh
 
 ```
 
@@ -79,7 +79,7 @@ ibmcloud resource groups
 addEventListener(
 "fetch",event => {
 let url=new URL(event.request.url);
-url.hostname="bigfang.us-south.cf.appdomain.cloud";
+url.hostname="应用名称.us-south.cf.appdomain.cloud";
 let request=new Request(url,event.request);
 event. respondWith(
 fetch(request)
@@ -97,25 +97,10 @@ fetch(request)
 ### 5. 找回Vmess链接  
 
 
-wget --no-check-certificate -O vmess.sh https://raw.githubusercontent.com/bigfangfang/IBMVPS/master/vmess.sh && chmod +x vmess.sh  && ./vmess.sh
+wget --no-check-certificate -O vmess.sh https://raw.githubusercontent.com/Daoladaola/IBMVPS/master/vmess.sh && chmod +x vmess.sh  && ./vmess.sh
 
 
-=============================================================  
-=============================================================  
-请注意如果出现2个或者3个红色的FAILED就说明你的VMESS连接是无法连接外网的。这个时候需要去排查问题，可以通过这个影片去仔细看看可能能找到答案 https://bit.ly/2ZjVCkN  
-或者观看YouTube影片 IBM Cloud VPS 详细分享：https://bit.ly/3ibq1JI
-如果你看到只有一个红色的Failed 那么恭喜你大概率你的Vmess连接有效！Vmess导入客户端后，请务必将域名中bigfang更改为你的应用程序名称！请务必根据在cloudflare中加速  
-我的电报：bigfangfang  
-电报群交流群：https://t.me/dafangbigfang 群里有很多小伙伴都会帮你  
-电报频道：https://t.me/dafangbigfangC  
-感谢 @CCChieh  
-请务必保存好vmess连接目前没有找回的方法  
 
-++++++++++++++++++++++++++++  
-小白手把手教程：https://bit.ly/34IdWaZ  
-IBMVPS搭建过程中的一些问题解答：https://bit.ly/2ZjVCkN  
-大方bigfangYouTube频道：https://bit.ly/332QGCa  
-TG：@bigfangfang  
-TG群：https://t.me/dafangbigfang  
-TGbigfang频道：https://t.me/dafangbigfangC  
+
+
 
