@@ -101,6 +101,8 @@ wget --no-check-certificate -O vmess.sh https://raw.githubusercontent.com/Daolad
 
 
 
+### 6. 多用户配置
+需要配置多个应用上网的。
 
 
 
