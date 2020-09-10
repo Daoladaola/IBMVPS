@@ -42,7 +42,7 @@ password
 ```
 > IBM_APP_NAME // 应用的名称
 ```
-bigfang
+应用名称
 ```
 
 > REGION_NUM // 区域编码
